@@ -1,0 +1,240 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #ccc;
+	height: 100%;
+
+}
+#contenedor{
+	width: 90%;
+	background: linear-gradient(#82ff92, #9282ff);
+	margin: 30px auto;
+	border-radius: 20px 20px 20px 20px;
+	border: 1px solid #000;
+}
+
+header{
+	position: relative;
+	background: url('fotosfedra/fondobien.jpg');
+	background-size: 100% 100%;
+	height: 250px;
+	border-radius: 20px 20px 0px 0px; ;
+}
+/*.logo1{
+	width: 225px;
+	height: 202px;
+	margin-top: 50px;
+	border-radius: 20px 20px 0px 0px;
+}
+.logo2{
+	width: 337px;
+	height: 150px;
+	margin-left: 10px;
+	border-radius: 20px 20px 0px 0px;
+
+}*/
+.cabezera{
+	position: absolute;
+	top: 90px;
+	right: 20px;
+	font-size: 30px;	 
+}
+/*p{	position: absolute;
+	right: 0px;
+}*/
+nav{
+	width: 100%;
+	height: 100px;
+	background-image: url(fotosfedra/fondo3.jpg);
+	background-size: 100%;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+
+	
+
+}
+nav ul{
+	text-align: center;
+	margin-right: 20px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 50px;
+	line-height: 100px;
+}
+nav li a{
+	
+	text-decoration: none;
+	font-size:25px;
+	font-weight: bolder;
+	color:#44a;
+	padding-right: 15px;
+	padding-left: 15px;
+	
+
+}
+nav li a:hover{
+	color: #b81417;
+	border-bottom: 5px solid forestgreen;
+	padding-bottom: 10px;
+	
+}
+.frase{
+	padding:30px;
+	background: radial-gradient(#f05bff, #ff5b6a)
+}
+img{
+	width: 200px;
+	height: 200px;
+	border:2px solid #000;
+	box-shadow: 5px 5px 5px yellow;
+}
+#articulos{
+	width: 600px;
+	text-align: center;
+	margin:30px auto;
+	
+}
+#violet{
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: 50px 200px 100px 200px 50px;
+	grid-template-rows: 100px 200px 100px;
+}
+#violet h2{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	line-height: 100px;
+}
+#violet .violet1{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+#violet .violet2{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+#violet a{
+	margin-top:50px;
+	font-size: 25px;
+	text-decoration: none;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	line-height: 40px;
+	background: 
+}
+#tsu{
+	margin-top:50px;
+	display: grid;
+	grid-template-columns: 50px 200px 100px 200px 50px;
+	grid-template-rows: 100px 200px 100px;
+}
+#tsu h2{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	line-height: 100px;
+}
+#tsu .tsu1{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+#tsu .tsu2{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+#tsu a{
+	margin-top:50px;
+	font-size: 25px;
+	text-decoration: none;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	line-height: 40px;
+}
+.aside{
+	width: 600px;
+	text-align: center;
+	margin:30px auto;
+}
+#superior{
+	margin-top:100px;
+	display: grid;
+	grid-template-columns: 50px 200px 100px 200px 50px;
+	grid-template-rows: 100px 200px 100px;
+}
+#superior h2{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	line-height: 100px;
+}
+#superior .super1{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+#superior .super2{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+#inferior{
+	display: grid;
+	grid-template-columns: 50px 200px 100px 200px 50px;
+	grid-template-rows: 100px 200px 100px;
+}
+#inferior h2{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	line-height: 100px;
+}
+#inferior .infe1{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+#inferior .infe2{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+footer{
+	background-color: #444;
+	height: 100px;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 100px;
+	color: #fff;
+	font-size: 25px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+
+
